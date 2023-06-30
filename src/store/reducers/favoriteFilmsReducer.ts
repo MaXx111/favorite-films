@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IFilmItem } from "../../model/model";
+import { IFilmItem } from "../../model/IFilmItem";
 
 interface favoriteFilmsProps {
     count: number,
