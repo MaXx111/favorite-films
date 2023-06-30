@@ -33,7 +33,7 @@ export const FilmItem: React.FC<{film: IFilmItem}> = (film: FilmItemProps) => {
     const navigate = useNavigate()
 
     const buttonHandlerdetailed = (id: string) => {
-        navigate(`/${id}`);
+        navigate(`/favorite-films/${id}`);
     }
 
     return(

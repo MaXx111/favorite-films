@@ -15,13 +15,13 @@ export const Header: React.FC<childrenProps> = ({children}) => {
     return(
         <>
             <div className="header">
-                <NavLink to='/' className="main-link">
+                <NavLink to='/favorite-films/' className="main-link">
                     Главная
                 </NavLink>
 
                 {children}
-                
-                <NavLink to='/favorites' className="favorite">
+
+                <NavLink to='/favorite-films/favorites' className="favorite">
                     <h2 className="favorite-title">Избранное</h2>
                     <FontAwesomeIcon icon={faHeart} style={{color: "#311c24",}} size="2xl" />
                     <span className="favorite-count">{count}</span>
