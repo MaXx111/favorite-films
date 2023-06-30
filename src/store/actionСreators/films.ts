@@ -19,5 +19,5 @@ export const fetchFilms = createAsyncThunk(
 
 function getFilmsUrl(title:string) {
 
-    return `http://www.omdbapi.com/?i=tt3896198&apikey=f1dd0baf&s=${title}`
+    return `https://www.omdbapi.com/?i=tt3896198&apikey=f1dd0baf&s=${title}`
 }

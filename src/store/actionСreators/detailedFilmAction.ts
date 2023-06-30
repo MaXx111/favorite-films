@@ -18,5 +18,5 @@ export const fetchDetailedFilm = createAsyncThunk(
 )
 
 function getUrl(id:string) {
-    return `http://www.omdbapi.com/?apikey=f1dd0baf&i=${id}`
+    return `https://www.omdbapi.com/?apikey=f1dd0baf&i=${id}`
 }
